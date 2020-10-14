@@ -1,0 +1,117 @@
+/* TABLE */
+#pageTable {
+  padding: 4px 0px;
+  height: 560px;
+}
+#table {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+#tableHead tr {
+  height: 48px;
+}
+#tableBody tr {
+  height: 32px;
+}
+#tableHead th:not:first-child,
+#tableBody td:not:first-child {
+  border-left: 1px solid #FFFFFF;
+}
+#tableHead th:first-child {
+  border-top-left-radius: 8px;
+  border-left: 0px solid #FFFFFF;
+  border-top: 0px solid #FFFFFF;
+}
+#tableHead th:last-child {
+  border-top-right-radius: 8px;
+  border-right: 0px solid #FFFFFF;
+  border-top: 0px solid #FFFFFF;
+}
+#tableBody td:first-child {
+  border-bottom-left-radius: 8px;
+  border-left: 0px solid #FFFFFF;
+  border-bottom: 0px solid #FFFFFF;
+}
+#tableBody td:last-child {
+  border-bottom-right-radius: 8px;
+  border-right: 0px solid #FFFFFF;
+  border-bottom: 0px solid #FFFFFF;
+}
+#tableHead th {
+  background: #3A80BA;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+#tableBody tr:nth-child(odd) {
+  background: #FBFBFB;
+}
+#tableBody tr:nth-child(even) {
+  background: #F1F1F1;
+}
+#tableHead th ,
+#tableBody td {
+  padding: 0px;
+}
+#tableHead th div {
+  padding: 14px 20px;
+}
+#tableBody td div {
+  padding: 6px 20px;
+}
+
+/* NAVBAR */
+#navbarContainer {
+  margin: 24px 0px 0px 0px;
+  padding: 0px 0px 24px 0px;
+
+  height: 48px;
+}
+#pageNavbar {
+  padding: 20px 0px;
+  height: 48px;
+}
+#navbar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 376px;
+}
+#navbar button {
+  padding: 0px;
+
+  width: 48px;
+  height: 48px;
+}
+.navbarNumberButton {
+  box-sizing: border-box;
+  border: 2px solid #F1F1F1;
+  border-radius: 8px;
+  background: #FFFFFF;
+
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #1A1A1A;
+}
+.navbarChosenNumberButton {
+  box-sizing: content-box;
+  border: none;
+  background: #3A80BA;
+
+  color: #FFFFFF;
+}
+#navbarLeftButton,
+#navbarRightButton {
+  box-sizing: content-box;
+  border: none;
+  background: #FFFFFF;
+
+  font-size: 16px;
+  text-align: center;
+  color: #3A80BA;
+}

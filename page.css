@@ -1,0 +1,23 @@
+#page {
+  padding: 4px 130px;
+}
+#pagePath {
+  padding: 12px 0px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.pathInactive {
+  color: #CCCCCC;
+}
+.pathActive {
+  color: #3A80BA;
+}
+#pageTitle {
+  padding: 12px 0px;
+  height: 39px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1A1A1A;
+}

@@ -1,0 +1,13 @@
+#header {
+  height: 72px;
+  background: #3A80BA;
+}
+#headerTitle {
+  float:left;
+  padding: 10px 0px 13px 130px;
+}
+#headerTitle > span {
+  color: #FFFFFF;
+  font-size: 40px;
+  line-height: 49px;
+}

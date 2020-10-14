@@ -1,0 +1,28 @@
+#footer {
+  padding: 0px 130px;
+  height: 57px;
+  background: #1C3B55;
+}
+#footerTitle {
+  float: left;
+  padding: 14px 0px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+#footerAllRights {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 17px 0px;
+  font-size: 16px;
+  line-height: 142%;
+  color: #FFFFFF;
+}
+#footerCopyright {
+  float: right;
+  padding: 17px 130px 17px 0px;
+  font-size: 16px;
+  line-height: 142%;
+  color: #FFFFFF;
+}
